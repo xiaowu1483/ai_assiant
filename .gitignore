@@ -1,0 +1,3 @@
+# 忽略日志内容
+logs/*.log
+logs/*.log.*

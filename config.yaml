@@ -1,0 +1,22 @@
+# 配置文件 (API Key, 模型参数，路径配置等)
+# config.yaml
+
+openai:
+  # API Key
+  api_key: "your_api"
+  model: "model_name"
+  temperature: 0.5
+  base_url: "url"
+
+memory:
+  # 记忆索引最大行数 (与 memory/config.py 保持一致)
+  max_index_lines: 200
+  # 是否启用自动记忆维护
+  auto_maintenance: true
+  # 日志级别 (INFO, DEBUG, WARNING)
+logging:
+  level: "INFO"
+  # 日志文件最大大小 (MB)
+  max_size_mb: 5
+  # 保留备份文件数量
+  backup_count: 3
